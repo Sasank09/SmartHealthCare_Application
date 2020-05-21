@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Doctor" android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/doctor_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/doctor_pass"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="16dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="login"
+            android:id="@+id/doctor_login"
+            android:textColor="@android:color/white"
+         />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

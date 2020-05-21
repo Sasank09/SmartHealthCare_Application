@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingTop="130dp"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/admin"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:text="Administrator"/>
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/patient"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:text="patient"/>
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/doctor"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:text="Doctor"/>
+
+</LinearLayout>

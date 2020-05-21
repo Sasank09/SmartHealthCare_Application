@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "123323521691",
+    "firebase_url": "https://smarthealthcare-59ec2.firebaseio.com",
+    "project_id": "smarthealthcare-59ec2",
+    "storage_bucket": "smarthealthcare-59ec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123323521691:android:6c2f6d8e2c632b0c5fc43e",
+        "android_client_info": {
+          "package_name": "com.example.smarthealthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123323521691-5tt9u7p6c6pf1mlj4fiia8qjqmbcfiq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smarthealthcare",
+            "certificate_hash": "b7377d7ea19b098ee3c12b6cc34a8f8ff366d42b"
+          }
+        },
+        {
+          "client_id": "123323521691-4an6r2gn4v5ppqqnqq6r2fnnh226ap84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFZaQb8UEs9aGDUDWMjkd5Ex8OhWZ0R68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123323521691-4an6r2gn4v5ppqqnqq6r2fnnh226ap84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

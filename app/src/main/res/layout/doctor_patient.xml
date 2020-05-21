@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+
+            android:id="@+id/patient_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:layout_alignParentEnd="true"
+            android:textColor="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textColor="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_toLeftOf="@+id/patient_age" />
+        <TextView
+            android:id="@+id/patient_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_toLeftOf="@+id/age"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:layout_alignParentLeft="true" />
+        <TextView
+            android:id="@+id/patient_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@+id/patient_name"
+            android:layout_toLeftOf="@+id/patient_phone"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:layout_alignParentLeft="true" />
+        <TextView
+            android:id="@+id/patient_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:maxLines="1"
+            android:layout_below="@+id/patient_heart"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/patient_heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/patient_email"
+            android:layout_toRightOf="@+id/heart"
+            android:ellipsize="end"
+            android:padding="10dp"
+            android:text="Heart Beat"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/patient_email"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:ellipsize="end"
+            android:padding="10dp"
+            android:text="Heart Beat:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/patient_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@+id/patient_age"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:id="@+id/bp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BP:"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@+id/patient_phone"
+            android:layout_toRightOf="@+id/patient_heart" />
+        <TextView
+            android:id="@+id/patient_bp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BP:"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:padding="10dp"
+            android:layout_below="@+id/patient_phone"
+            android:layout_toRightOf="@+id/bp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

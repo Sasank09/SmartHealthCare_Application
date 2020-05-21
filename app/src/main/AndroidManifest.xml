@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smarthealthcare">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Test"></activity>
+        <activity android:name=".PhoneAuthActivity" />
+        <activity android:name=".PatientOtp" />
+        <activity android:name=".DoctorOtp" />
+        <activity android:name=".DoctorsList" />
+        <activity android:name=".PatientsList" />
+        <activity android:name=".DoctorTreatment" />
+        <activity android:name=".PatientCheckup" />
+        <activity android:name=".PatientUpdate" />
+        <activity android:name=".PatientHome" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".DoctorHone" />
+        <activity android:name=".DoctorRegister" />
+        <activity android:name=".PatientRegister" />
+        <activity android:name=".Patient" />
+        <activity android:name=".Doctor" />
+        <activity android:name=".Admin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
